@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ContactLayoutActivity" >
+    <item android:id="@+id/action_sort_contacts"
+          android:icon="@drawable/ic_action_sort_by_size"
+          android:title="@string/action_sort_contacts"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_create_contact"
+        android:icon="@drawable/ic_action_add_person"
+        android:title="@string/action_create_contact"
+        android:showAsAction="ifRoom" />
+</menu>

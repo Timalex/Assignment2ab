@@ -1,0 +1,22 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <fragment class="com.example.alexander.assignment2a.ContactFragmentList"
+        tools:layout="@android:layout/simple_list_item_activated_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contactListFragment"
+        android:layout_gravity="center"
+        android:name="android.app.ListFragment"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/contact_details"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+</LinearLayout>

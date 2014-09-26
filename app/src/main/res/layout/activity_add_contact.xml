@@ -1,0 +1,51 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction_enter_contact_details"
+        android:id="@+id/textView"
+        android:textSize="24dp"
+        android:textIsSelectable="false"
+        android:lines="3"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextName"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextAge"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_age" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextImageUrl"
+        android:hint="@string/hint_image_url"
+        android:inputType="textUri" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editTextDescription"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_description" />
+
+</LinearLayout>
